@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Tahun Kabisat atau Bukan</p>
+
+<button onclick="myFunction()">Input</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var Input = prompt("Input Tahun", 0);
+  var Output = ''
+    if (Input % 4 === 0 && Input % 100 != 0 || Input % 400 === 0) {
+    document.getElementById("demo").innerHTML =
+    Output='Kabisat';
+    }else{
+    document.getElementById("demo").innerHTML =
+    Output='Bukan Kabisat';
+    }
+}
+</script>
+
+</body>
+</html>

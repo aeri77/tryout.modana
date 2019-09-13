@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Masukan Nilai</p>
+
+<button onclick="myFunction()">Input</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var Input = prompt("Nilai");
+  var Output = ''
+    if (Input >= 90) {
+    document.getElementById("demo").innerHTML =
+    Output='A';
+    }else if (Input >= 80 ) {
+    document.getElementById("demo").innerHTML =
+    Output='B';
+    
+    }else if (Input >= 70 ) {
+    document.getElementById("demo").innerHTML =
+    Output='C';
+    }else if (Input >= 60 ) {
+    document.getElementById("demo").innerHTML =
+    Output='D';
+    }else if (Input >= 0 ) {
+    document.getElementById("demo").innerHTML =
+    Output='E';
+    }
+}
+</script>
+
+</body>
+</html>

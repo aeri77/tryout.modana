@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Masukan Umur Untuk Rating Film</p>
+
+<button onclick="myFunction()">Input</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var Input = prompt("Umur Anda");
+  var Output = ''
+    if (Input >= 21) {
+    document.getElementById("demo").innerHTML =
+    Output='DEWASA';
+    }else if (Input >= 13 ) {
+    document.getElementById("demo").innerHTML =
+    Output='REMAJA';
+    }else if (Input >= 9 ) {
+    document.getElementById("demo").innerHTML =
+    Output='BIMBINGAN ORANG TUA';
+    }else if (Input < 9 ) {
+    document.getElementById("demo").innerHTML =
+    Output='SEMUA USIA';
+    }
+}
+</script>
+
+</body>
+</html>

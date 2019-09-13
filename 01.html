@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Inputkan Kata</p>
+
+<button onclick="myFunction()">Input</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var Input = prompt("Nama", "Saya");
+  var Output = Input.length
+  if (Input != null) {
+    document.getElementById("demo").innerHTML =
+    Output;
+  }
+}
+</script>
+
+</body>
+</html>

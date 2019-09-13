@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script>
+const stuff = ['Jeruk', 'Pepaya', 'Jambu', 'Anggur', 'Melon']
+for(var i =0; i < stuff.length ; i++){
+    if(stuff[i]==='Jambu'){
+        stuff.splice(i,1)
+
+    }
+}
+document.getElementById("demo").innerHTML = stuff
+</script>
+</body>
+</html>

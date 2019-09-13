@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Masukan Nilai</p>
+
+<button onclick="myFunction()">Input</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var Input = prompt("Input Angka Ganjil atau Genap", 0);
+  var Output = ''
+    if (Input % 2 === 0 ) {
+    document.getElementById("demo").innerHTML =
+    Output='Genap';
+    }else{
+    document.getElementById("demo").innerHTML =
+    Output='Ganjil';
+    }
+}
+</script>
+
+</body>
+</html>
