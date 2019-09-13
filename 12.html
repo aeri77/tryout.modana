@@ -1,0 +1,13 @@
+<html>
+    <body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+        <script>
+            var array = ['-','-','-','c','c','v']
+            var kalimat = array.join('')
+            document.getElementById("demo").innerHTML = "Input : " + kalimat;
+            const mirror = kalimat + array.reverse().join("")
+            document.getElementById("demo2").innerHTML = "Output : " + mirror
+        </script>
+    </body>
+</html>
